@@ -1,0 +1,18 @@
+.light {
+  padding: 30px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.light-red {
+  background-color: red;
+}
+
+.light-green {
+  background-color: green;
+}
+
+.light-yellow {
+  background-color: yellow;
+}
