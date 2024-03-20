@@ -20,7 +20,8 @@ function TodoApp() {
     }
     setTasks(prev => {
       return [...prev, newTask]
-    })
+    });
+    setTaskName('');
   }
 
   const deleteTask = (taskId) => {
@@ -37,7 +38,18 @@ function TodoApp() {
   return (
     <>
       <h1>Todo App</h1>
-      <input onChange={onInputTaskChange} placeholder="Add something to do"></input>
+      <input
+        onChange={onInputTaskChange}
+        placeholder="Add something to do"
+        onKeyDown={
+          (e) => {
+            if (e.key === 'Enter') {
+              addTask();
+            }
+          }
+        }
+        value={taskName}>
+      </input>
       <button onClick={addTask}>Save</button>
       {
         tasks.map(task => {
