@@ -7,6 +7,7 @@ import Header from './Header/Header';
 import Lesson04 from './Lesson04/Lesson04';
 import Lesson05 from './Lesson05/Lesson05';
 import Lesson06 from './Lesson06/Lesson06';
+import Lesson07 from './Lesson07/Lesson07';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/lesson-4" element={<Lesson04 />} />
         <Route path="/lesson-5" element={<Lesson05 />} />
         <Route path="/lesson-6" element={<Lesson06 />} />
+        <Route path="/lesson-7" element={<Lesson07 />} />
       </Routes>
     </>
   );
