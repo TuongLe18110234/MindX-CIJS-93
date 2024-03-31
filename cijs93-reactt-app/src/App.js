@@ -8,12 +8,17 @@ import Lesson04 from './Lesson04/Lesson04';
 import Lesson05 from './Lesson05/Lesson05';
 import Lesson06 from './Lesson06/Lesson06';
 import Lesson07 from './Lesson07/Lesson07';
+import Lesson10 from './Lesson10/Lesson10';
+import AboutMe from './Lesson10/AboutMe/AboutMe';
+import Profile from './Lesson10/Profile/Profile';
+import Detail from './Lesson10/Detail/Detail';
 
 function App() {
   return (
     <>
       <Header />
       <Routes>
+        <Route path="*" element={<h1>Page not found</h1>} />
         <Route path="/" element={<Home />} />
         <Route path="/todo" element={<TodoApp />} />
         <Route path="/traffic-light" element={<TrafficLightApp />} />
@@ -21,6 +26,11 @@ function App() {
         <Route path="/lesson-5" element={<Lesson05 />} />
         <Route path="/lesson-6" element={<Lesson06 />} />
         <Route path="/lesson-7" element={<Lesson07 />} />
+        <Route path="/lesson-10" element={<Lesson10 />} >
+          <Route path="/lesson-10/:id" element={<Detail />} />
+          <Route path="/lesson-10/" element={<AboutMe />} />
+          <Route path="/lesson-10/profile/" element={<Profile />} />
+        </Route>
       </Routes>
     </>
   );

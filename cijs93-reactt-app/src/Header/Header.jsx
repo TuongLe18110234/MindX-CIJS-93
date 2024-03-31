@@ -19,16 +19,18 @@ function Header(){
 				<NavLink to="/traffic-light" className={activeClass}>Traffic Light</NavLink>
 			</div>
 			<div>
-				<NavLink to="/lesson-4" className={activeClass}>Lesson 04</NavLink>
+				<NavLink to="/lesson-4" className={activeClass}>04</NavLink>
 			</div>
 			<div>
-				<NavLink to="/lesson-5" className={activeClass}>Lesson 05</NavLink>
+				<NavLink to="/lesson-5" className={activeClass}>05</NavLink>
 			</div>
 			<div>
-				<NavLink to="/lesson-6" className={activeClass}>Lesson 06</NavLink>
+				<NavLink to="/lesson-6" className={activeClass}>06</NavLink>
 			</div>
 			<div>
-				<NavLink to="/lesson-7" className={activeClass}>Lesson 07</NavLink>
+				<NavLink to="/lesson-7" className={activeClass}>07</NavLink>
+			</div>			<div>
+				<NavLink to="/lesson-10" className={activeClass}>10</NavLink>
 			</div>
 		</div>
 	)
