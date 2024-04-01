@@ -15,9 +15,9 @@ function Header(){
 			<div>
 				<NavLink to="/todo" className={activeClass}>Todo App</NavLink>
 			</div>
-			<div>
+			{/* <div>
 				<NavLink to="/traffic-light" className={activeClass}>Traffic Light</NavLink>
-			</div>
+			</div> */}
 			<div>
 				<NavLink to="/lesson-4" className={activeClass}>04</NavLink>
 			</div>
@@ -29,8 +29,12 @@ function Header(){
 			</div>
 			<div>
 				<NavLink to="/lesson-7" className={activeClass}>07</NavLink>
-			</div>			<div>
+			</div>
+			<div>
 				<NavLink to="/lesson-10" className={activeClass}>10</NavLink>
+			</div>
+			<div>
+				<NavLink to="/lesson-11" className={activeClass}>11</NavLink>
 			</div>
 		</div>
 	)

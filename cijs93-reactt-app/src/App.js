@@ -12,6 +12,7 @@ import Lesson10 from './Lesson10/Lesson10';
 import AboutMe from './Lesson10/AboutMe/AboutMe';
 import Profile from './Lesson10/Profile/Profile';
 import Detail from './Lesson10/Detail/Detail';
+import Lesson11 from './Lesson11/Lesson11';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/lesson-10/" element={<AboutMe />} />
           <Route path="/lesson-10/profile/" element={<Profile />} />
         </Route>
+        <Route path="/lesson-11" element={<Lesson11 />} />
       </Routes>
     </>
   );
