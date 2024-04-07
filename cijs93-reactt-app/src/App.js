@@ -13,6 +13,7 @@ import AboutMe from './Lesson10/AboutMe/AboutMe';
 import Profile from './Lesson10/Profile/Profile';
 import Detail from './Lesson10/Detail/Detail';
 import Lesson11 from './Lesson11/Lesson11';
+import Lesson12 from './Lesson12/Lesson12';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/lesson-10/profile/" element={<Profile />} />
         </Route>
         <Route path="/lesson-11" element={<Lesson11 />} />
+        <Route path="/lesson-12" element={<Lesson12 />} />
       </Routes>
     </>
   );
