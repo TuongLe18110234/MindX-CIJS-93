@@ -14,6 +14,7 @@ import Profile from './Lesson10/Profile/Profile';
 import Detail from './Lesson10/Detail/Detail';
 import Lesson11 from './Lesson11/Lesson11';
 import Lesson12 from './Lesson12/Lesson12';
+import Lesson13 from './Lesson13/Lesson13';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         </Route>
         <Route path="/lesson-11" element={<Lesson11 />} />
         <Route path="/lesson-12" element={<Lesson12 />} />
+        <Route path="/lesson-13" element={<Lesson13 />} />
       </Routes>
     </>
   );
