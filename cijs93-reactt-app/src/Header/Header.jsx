@@ -39,8 +39,11 @@ function Header(){
 			{/* <div>
 				<NavLink to="/lesson-12" className={activeClass}>12</NavLink>
 			</div> */}
-			<div>
+			{/* <div>
 				<NavLink to="/lesson-13" className={activeClass}>13</NavLink>
+			</div> */}
+			<div>
+				<NavLink to="/lesson-14" className={activeClass}>14</NavLink>
 			</div>
 		</div>
 	)
