@@ -16,6 +16,7 @@ import Lesson11 from './Lesson11/Lesson11';
 import Lesson12 from './Lesson12/Lesson12';
 import Lesson13 from './Lesson13/Lesson13';
 import Lesson14 from './Lesson14/Lesson14';
+import Lesson15 from './Lesson15/Lesson15';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="/lesson-12" element={<Lesson12 />} />
         <Route path="/lesson-13" element={<Lesson13 />} />
         <Route path="/lesson-14" element={<Lesson14 />} />
+        <Route path="/lesson-15" element={<Lesson15 />} />
       </Routes>
     </>
   );
